@@ -13,9 +13,11 @@ private:
     std::string description;
     bool isCompleted;
     std::string dateCreated;
- 
+    priority priority;
+    
+    std::string currTime();
 public:
-    Task(std::string& desc);
+    Task(std::string& desc, int lastID, priority pr);
 
 
 };

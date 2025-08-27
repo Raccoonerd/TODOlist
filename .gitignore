@@ -19,6 +19,7 @@ todolist
 
 # Data files
 data/
+commit.txt
 
 # OS
 .DS_Store
